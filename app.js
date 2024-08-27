@@ -25,7 +25,7 @@ mongoose
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://easy-tech-ten.vercel.app/",
     methods: "GET,POST", // Allow only these methods
     credentials: true, // Allow credentials if needed
   })
