@@ -25,7 +25,7 @@ mongoose
 
 app.use(
   cors({
-    origin: "https://easy-tech-ten.vercel.app/",
+    origin: "*",
     methods: "GET,POST", // Allow only these methods
     credentials: true, // Allow credentials if needed
   })
