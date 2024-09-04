@@ -18,11 +18,8 @@ export const createOrUpdateProduct = async (req, res) => {
   console.log("post api hit");
 
   await mongooseConnect();
-  console.log(req.body);
 
   const { _id, review } = req.body;
-
-  console.log(_id, review);
 
   const product = await Product.findById(_id);
 
