@@ -27,7 +27,7 @@ app.use(
   cors({
     origin: "*",
     methods: "GET,POST", // Allow only these methods
-    credentials: true, // Allow credentials if needed
+    // credentials: true, // Allow credentials if needed
   })
 );
 
